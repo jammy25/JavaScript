@@ -35,6 +35,14 @@ console.log(city)
 
 // Use of const in arr
 const arr1 = [35, 45, 8, 9, 7]
+// here you cannot put this -> arr1 = [23, 34, 5] but you can push values in the array
 arr1.push(56)
 console.log(arr1)
-// here you cannot put this -> [23, 34, 5]
+
+/* Most common programming case types:
+
+1. camelCase
+2. kebab-case
+3. snake_case
+4. PascalCase
+*/
