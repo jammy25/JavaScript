@@ -18,9 +18,29 @@ let nullVar = null;
 console.log('Data type is ' + (typeof nullVar));
 
 // undefined
-let undef = undefined
-console.log('Data type is ' + (typeof undef))
+let undef = undefined;
+console.log('Data type is ' + (typeof undef));
 
 // Reference Data Type
-myarr = [2, 3, 4, 35]
-console.log('Data type is ' + (typeof myarr))
+
+// Array
+let myarr = [2, 3, 4, 35, false, "string"];
+console.log('Data type is ' + (typeof myarr));
+
+// Object Literals
+let stMarks = {
+    Harry: 34,
+    Ron: 25,
+    Hermione: 40,
+}
+console.log('Data type is ' + typeof(stMarks));
+
+// Functions
+function findName() {
+    
+};
+console.log("Data type is " + typeof(findName));
+
+// Date
+let date = new Date()
+console.log("Data type is " + typeof(date));
