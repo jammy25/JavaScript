@@ -71,5 +71,23 @@ else{
 }
 
 // Ternary Operator
-const age6 = 44;
+const age6 = 45;
 console.log(age6 == 45? 'Age is 45': 'Age is not 45');
+
+// Switches
+switch (age6){
+    case 45:
+        console.log('You are 45')
+        break;
+    case 65:
+        console.log('You are 65')
+        break;
+    case 20:
+        console.log('You are 20')
+        break;
+    default:
+        console.log('Age not confirm');
+        break;
+}
+
+/* If you remove break from statement and if its above case becomes true then all the next cases after that will also be executed*/
