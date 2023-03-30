@@ -31,4 +31,4 @@ console.log(`Welcome to tut 11, let's discuss Manipulating Websites using JS Win
 // console.log(a, b)
 
 a = window.history;
-console.log(a)
+console.log(a);
