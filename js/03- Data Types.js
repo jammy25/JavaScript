@@ -21,6 +21,7 @@ console.log('Data type is ' + (typeof nullVar));
 let undef = undefined;
 console.log('Data type is ' + (typeof undef));
 
+
 // Reference Data Type
 
 // Array
