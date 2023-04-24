@@ -7,7 +7,7 @@ const greeting = "Good Morning";
 console.log(greeting + ' ' + name);
 
 let html;
-html = "<h1>this is HeAding</h1>" + 
+html = "<h1>this is HeAding</h1>" +
         "<p>this is a para</p>";
 
 html = html.concat('this', ' str2');
