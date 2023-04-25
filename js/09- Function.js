@@ -1,6 +1,6 @@
 console.log(`This is tut10, let's discuss Function`);
 
-function Book(name, thanksMsg = 'Thanks anyway.'){
+function Book(name, thanksMsg = 'Thanks anyway.') {
     console.log(`Hello ${name}, my name is Tom Marvallo Riddle. ${thanksMsg}`);
     return `10 Points`;
 }
@@ -12,7 +12,7 @@ console.log(val);
 
 // We can return the value also
 
-function Book1(name, thanksMsg = 'Thanks anyway.'){
+function Book1(name, thanksMsg = 'Thanks anyway.') {
     let msg = `Hello ${name}, my name is Tom Marvallo Riddle. ${thanksMsg}`;
     return msg;
 }
@@ -24,7 +24,7 @@ console.log(val1);
 
 // We can also do that by putting the function in a variable
 
-const myBook = function (name, thanksMsg = 'Thanks anyway.'){
+const myBook = function (name, thanksMsg = 'Thanks anyway.') {
     console.log(`Hello ${name}, my name is Tom Marvallo Riddle. ${thanksMsg}`);
 }
 let name4 = "Harry Potter";
@@ -34,7 +34,7 @@ let val2 = myBook(name4);
 
 const myObj = {
     name: `Neil Drucman`,
-    game: function(){
+    game: function () {
         return "Last of Us"
     }
 }
@@ -43,7 +43,7 @@ console.log(myObj.game())
 // For loop revision
 arr = ['fruits', 'vegetables', 'furniture']
 
-arr.forEach(function(element, index, array){
+arr.forEach(function (element, index, array) {
     console.log(element, index)
 });
 
@@ -53,7 +53,7 @@ arr.forEach(function(element, index, array){
 var i = 234;
 console.log(i);
 
-function ui(name){
+function ui(name) {
     var i = 9;
     console.log(i)
     return (`My name is ${name}`);
@@ -64,7 +64,7 @@ console.log(ui('Kishan'), i);
 var j = 234;
 console.log(i);
 
-function uj(name){
+function uj(name) {
     j = 9;
     console.log(j)
     return (`My name is ${name}`);
@@ -75,7 +75,7 @@ console.log(uj('Kishan'), j);
 let k = 234;
 console.log(k);
 
-function uk(name){
+function uk(name) {
     let k = 9;
     console.log(k)
     return (`My name is ${name}`);
@@ -89,7 +89,7 @@ console.log(uk('Kishan'), k);
 }
 console.log(a)
 
-function ua(name){
+function ua(name) {
     let a = 9;
     console.log(a);
     return (`My name is ${name}`)
