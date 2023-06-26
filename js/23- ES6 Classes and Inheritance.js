@@ -48,4 +48,4 @@ class Programmer extends Employee {
 let Anu = new Programmer('Anubhav', 3, 2, 'Java', 'Anu04')
 console.log(Anu)
 console.log(Anu.favoriteLanguage())
-console.log(Programmer.multiply(19, 7))
+console.log(Programmer.multiply(19, 8))
