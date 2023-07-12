@@ -8,4 +8,3 @@ for (let index = 0; index < 45; index++) {
 
 console.log('done printing');
 console.log('print');
-console.log('okay');
